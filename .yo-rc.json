@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.bbn.lwit.raysrentals"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "monolith",
+    "baseName": "RaysRentals",
+    "packageName": "com.bbn.lwit.raysrentals",
+    "packageFolder": "com/bbn/lwit/raysrentals",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "mongodb",
+    "devDatabaseType": "mongodb",
+    "prodDatabaseType": "mongodb",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NWQyN2YzODFjODQ2NWMyOGI5M2JhOWJkMDhhZTYxMGRjYjRjZDUxMzk5NzgxNzVmMTEyZGVlODY4OWIwYmU4MzA0OWU1MDg5YzM4MjQ4YzEzOTFhZmVlNmZkZjM1NjQwNzRkZTM4MmU1ZjZiOTU1ZWNhNmMyNzVlYThlNjAwMDI=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "slate",
+    "clientThemeVariant": "primary",
+    "testFrameworks": ["gatling", "cucumber", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
