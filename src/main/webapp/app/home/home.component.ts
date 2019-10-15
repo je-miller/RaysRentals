@@ -6,6 +6,7 @@ import { JhiEventManager } from 'ng-jhipster';
 import { LoginModalService } from 'app/core/login/login-modal.service';
 import { AccountService } from 'app/core/auth/account.service';
 import { Account } from 'app/core/user/account.model';
+declare const Cesium;
 
 @Component({
   selector: 'jhi-home',
@@ -28,6 +29,8 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.account = account;
     });
     this.registerAuthenticationSuccess();
+
+    const viewer = new Cesium.Viewer('cesiumContainer');
   }
 
   registerAuthenticationSuccess() {
