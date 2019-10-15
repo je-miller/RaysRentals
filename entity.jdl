@@ -1,0 +1,18 @@
+
+entity VisitorLocation {
+	ip String,
+    countryCode String,
+    countryName String,
+    region String,
+    city String,    
+    latitude Float,
+    longitude Float,    
+    zipcode String,
+    timezone String
+}
+
+// Set pagination options
+paginate * with pagination
+
+// Set service options to all except few
+service all with serviceClass
